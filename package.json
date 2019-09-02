@@ -1,0 +1,21 @@
+{
+    "name": "bcm",
+    "displayName": "bcm-theme",
+    "description": "A high-contrast dark theme that may be helpful to others who have blue-cone monochromatism.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.37.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "bcm-theme",
+                "uiTheme": "hc-black",
+                "path": "./themes/bcm-theme-color-theme.json"
+            }
+        ]
+    }
+}
